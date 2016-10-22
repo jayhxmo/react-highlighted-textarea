@@ -1,8 +1,6 @@
 # React Highlighted Textarea
 React component for a Textarea that supports highlighting.
 
-A React port of https://github.com/lonekorean/highlight-within-textarea/tree/master
-
 ## Usage
 ```javascript
 function doHighlight(input) {
@@ -11,3 +9,23 @@ function doHighlight(input) {
 
 <HighlightedTextarea highlight={doHighlight} />
 ```
+
+###### Array
+```javascript
+function doHighlight(input) {
+    return [
+      [0, 5],
+      [17, 28],
+      [40, 60]
+    ];
+}
+```
+
+###### Regex
+```javascript
+function doHighlight(input) {
+    return /\w+/g;
+}
+```
+
+A React port of https://github.com/lonekorean/highlight-within-textarea

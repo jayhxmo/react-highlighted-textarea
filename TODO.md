@@ -1,4 +1,0 @@
-- Webpack DEV Config aanmaken
-- Check for duplicate flags
-- Validate lines (missing close bracket FLAGS)
-- Support more FLAGS
