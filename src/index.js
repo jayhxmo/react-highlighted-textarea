@@ -8,7 +8,7 @@ export default class HighlightedTextarea extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      input: props.value,
+      input: props.value ? props.value : '',
     };
     this._handleInputChange = this._handleInputChange.bind(this);
     this._handleScroll = this._handleScroll.bind(this);
